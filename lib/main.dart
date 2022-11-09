@@ -1,3 +1,4 @@
+import 'package:design_patterns/design_patterns/builder/builder_page.dart';
 import 'package:design_patterns/design_patterns/singleton/singleton_page.dart';
 import 'package:design_patterns/page/home_page.dart';
 import 'package:flutter/material.dart';
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
       routes: {
         HomePage.route: (_) => const HomePage(),
         SingletonPage.route: (_) => const SingletonPage(),
+        BuilderPage.route: (_) => const BuilderPage(),
       },
     );
   }
