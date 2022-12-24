@@ -8,3 +8,4 @@ Creational design patterns provide various object creation mechanisms, which inc
 
 - [Singleton](https://medium.com/@alvaro.armijoss/singleton-in-flutter-c8d187820364)
 - [Builder](https://medium.com/@alvaro.armijoss/builder-in-flutter-427fd3da1f73)
+- [Factory](https://medium.com/@alvaro.armijoss/factory-in-flutter-9b55d06bbd61)
