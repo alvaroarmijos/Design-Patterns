@@ -1,3 +1,4 @@
+import 'package:design_patterns/design_patterns/adapter/adapter_page.dart';
 import 'package:design_patterns/design_patterns/builder/builder_page.dart';
 import 'package:design_patterns/design_patterns/factory/factory_page.dart';
 import 'package:design_patterns/design_patterns/singleton/singleton_page.dart';
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
         SingletonPage.route: (_) => const SingletonPage(),
         BuilderPage.route: (_) => const BuilderPage(),
         FactoryPage.route: (_) => const FactoryPage(),
+        AdapterPage.route: (_) => const AdapterPage(),
       },
     );
   }

@@ -1,3 +1,4 @@
+import 'package:design_patterns/design_patterns/adapter/adapter_page.dart';
 import 'package:design_patterns/design_patterns/builder/builder_page.dart';
 import 'package:design_patterns/design_patterns/factory/factory_page.dart';
 import 'package:design_patterns/design_patterns/singleton/singleton_page.dart';
@@ -30,6 +31,11 @@ class HomePage extends StatelessWidget {
               title: const Text('Factory'),
               trailing: const Icon(Icons.navigate_next_sharp),
               onTap: () => Navigator.pushNamed(context, FactoryPage.route),
+            ),
+            ListTile(
+              title: const Text('Adapter'),
+              trailing: const Icon(Icons.navigate_next_sharp),
+              onTap: () => Navigator.pushNamed(context, AdapterPage.route),
             ),
           ],
         ));
