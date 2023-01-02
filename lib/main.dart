@@ -1,6 +1,7 @@
 import 'package:design_patterns/design_patterns/adapter/adapter_page.dart';
 import 'package:design_patterns/design_patterns/builder/builder_page.dart';
 import 'package:design_patterns/design_patterns/factory/factory_page.dart';
+import 'package:design_patterns/design_patterns/proxy/proxy_page.dart';
 import 'package:design_patterns/design_patterns/singleton/singleton_page.dart';
 import 'package:design_patterns/page/home_page.dart';
 import 'package:flutter/material.dart';
@@ -24,6 +25,7 @@ class MyApp extends StatelessWidget {
         BuilderPage.route: (_) => const BuilderPage(),
         FactoryPage.route: (_) => const FactoryPage(),
         AdapterPage.route: (_) => const AdapterPage(),
+        ProxyPage.route: (_) => const ProxyPage(),
       },
     );
   }
